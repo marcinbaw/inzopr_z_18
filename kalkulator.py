@@ -3,6 +3,8 @@ def dodaj():
    b=input()
    print(int(a)+int(b))
 def getHelp():
-   pass
+   print("To jest prosty kalkulator")
+   print("Podaj dwie liczby, a ja je dodam")
 
+getHelp()
 dodaj()
